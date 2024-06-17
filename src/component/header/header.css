@@ -1,0 +1,195 @@
+header{
+    height: 120vh;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.head__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* CTA */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* SOCIALS*/
+
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8 rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    a :hover{
+        color: azure;
+    }
+}
+
+.header_socials::after{
+    content:'';
+    width: 1px;
+    height: 2rem;
+    background : var(--color-bg-variant);
+}
+
+/* ME */
+
+.me     
+{
+    width: 23rem; 
+    height: 30rem;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 48%;
+    margin-top: 3rem;   
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 6px 5px 10px 5px rgba(13,110,253,0.5);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+.me2    
+{
+    width: 23rem; 
+    height: 30rem;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 20%;
+    margin-top: 3rem;   
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 6px 5px 10px 5px rgba(13,110,253,0.4);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes animate{
+    0%,100%{
+        border-radius: 30% 70% 30% 70% / 30% 60% 70% 40%;
+    }
+    50%{
+        border-radius: 20% 60% 70% 40% / 50% 60% 50% 80%;
+    }
+}
+/*scroll down*/
+
+.scroll_down{
+    position: absolute;
+    right: 8%;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 1rem;
+    color: rgb(8, 8, 39);
+}
+
+/* MEDIA QUIERIES (medium device) */
+
+@media screen and (max-width:1024px)
+{
+    header{
+        height: 80vh;
+    }
+    .me{
+        width: 22rem; 
+        height: 23rem;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        left: 48%;
+        margin-top: 3rem;   
+        overflow: hidden;
+        border-radius: 50%;
+        box-shadow: 6px 5px 10px 5px rgba(13,110,253,0.5);
+        animation: animate 5s ease-in-out infinite;
+        transition: all 1s ease-in-out;
+        }
+    
+    .me2{
+        width: 22rem; 
+        height: 23rem;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        left: 7%;
+        margin-top: 3rem;   
+        overflow: hidden;
+        border-radius: 50%;
+        box-shadow: 6px 5px 10px 5px rgba(13,110,253,0.4);
+        animation: animate 5s ease-in-out infinite;
+        transition: all 1s ease-in-out;
+    }
+
+    .scroll_down{
+        right: 2%;
+        margin-bottom: 3rem;
+    }
+    
+}
+
+
+/* MEDIA QUIERIES (small device) */
+
+@media screen and (max-width:600px) 
+{
+    header{
+        height: 70vh;
+    }
+
+    .header_socials,.scroll_down{
+        display: none;
+    }
+
+    .me{
+    width: 13rem; 
+    height: 13rem;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 48%;
+    margin-top: 3rem;   
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 6px 5px 10px 5px rgba(13,110,253,0.5);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    }
+
+    .me2{
+        width: 13rem; 
+        height: 13rem;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        left: 7%;
+        margin-top: 3rem;   
+        overflow: hidden;
+        border-radius: 50%;
+        box-shadow: 6px 5px 10px 5px rgba(13,110,253,0.4);
+        animation: animate 5s ease-in-out infinite;
+        transition: all 1s ease-in-out;
+    }
+}
+
+/* MEDIA QUIERIES (smallest device) */
+@media screen and (max-width:500px) 
+{
+    header
+    {
+        height: 85vh;
+        padding-top: 5rem;
+        overflow: hidden;
+    }
+}
