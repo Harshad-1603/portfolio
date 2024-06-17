@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4fa3eedb.css",
+    "main.js": "/portfolio/static/js/main.e25b9cb7.js",
+    "static/media/alc.png": "/portfolio/static/media/alc.524c0e4fdb82b7cf6bf5.png",
+    "static/media/h3.jpg": "/portfolio/static/media/h3.adf08d7389dc8efaafbd.jpg",
+    "static/media/h2.jpg": "/portfolio/static/media/h2.4079e445fe648f7c2c30.jpg",
+    "static/media/shop.png": "/portfolio/static/media/shop.c7af79fb2fd827fb2998.png",
+    "static/media/h1.jpg": "/portfolio/static/media/h1.9a6b0c505066561a4fff.jpg",
+    "static/media/turf.jpg": "/portfolio/static/media/turf.c96abc585b49ecba53e1.jpg",
+    "static/media/backg.jpg": "/portfolio/static/media/backg.222275c18270d3bb7e03.jpg",
+    "static/media/Harshad_resume.pdf": "/portfolio/static/media/Harshad_resume.d9d66888fd7ad29d0da0.pdf",
+    "static/media/vote.jpg": "/portfolio/static/media/vote.41a21e7e96611a1cb0a3.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.4fa3eedb.css.map": "/portfolio/static/css/main.4fa3eedb.css.map",
+    "main.e25b9cb7.js.map": "/portfolio/static/js/main.e25b9cb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fa3eedb.css",
+    "static/js/main.e25b9cb7.js"
+  ]
+}
