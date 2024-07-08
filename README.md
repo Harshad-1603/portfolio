@@ -1,3 +1,5 @@
+Check out my interactive portfolio website! Built with cutting-edge tech (ReactJS, HTML, CSS, Javascript), it's a dynamic platform that showcases my skills and experience in a way that's both visually stunning and user-friendly. Dive into captivating project details, explore my diverse skillset, and connect with me easily through the intuitive contact form. It's not just a resume, it's an immersive experience that will make you want to work with me. Visit now !!!
+--------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
